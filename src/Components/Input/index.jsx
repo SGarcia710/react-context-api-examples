@@ -3,6 +3,7 @@ import { StoreContext } from "../../Store";
 
 const Input = ({ type, description }) => {
   // Este es un input reutilizable con estado reutilizable
+  console.log("se renderiza");
   const {
     [type]: [data, setData]
   } = useContext(StoreContext);

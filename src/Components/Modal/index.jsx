@@ -5,6 +5,8 @@ import "./style.scss";
 import Input from "../Input";
 
 const Modal = () => {
+  console.log("se renderiza");
+
   const { toggleModal } = useContext(StoreContext);
   return (
     <div
